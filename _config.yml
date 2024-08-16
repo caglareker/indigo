@@ -8,7 +8,7 @@ description: Personal Website
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/profile-removebg.png
 
 # your site color theme, true for dark theme,
 # false to light theme, auto to switch with system.
@@ -44,7 +44,7 @@ authors:
         name: Çağlar Eker
         bio: Back-end Developer, Java
         external-image: false
-        picture: assets/images/profile.jpg
+        picture: assets/images/profile-removebg.png
         twitter: caglreker
 
 # do you want a larger site? change the option below
