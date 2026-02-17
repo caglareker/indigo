@@ -1,6 +1,6 @@
 # main text of home
 title: Çağlar Eker
-bio: Back-end Developer, Java
+bio: Senior Software Engineer
 
 # twitter summary info
 description: Personal Website
@@ -42,7 +42,7 @@ github: caglareker
 authors:
     johndoe:
         name: Çağlar Eker
-        bio: Back-end Developer, Java
+        bio: Senior Software Engineer
         external-image: false
         picture: assets/images/profile-removebg.png
         twitter: caglreker

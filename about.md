@@ -6,12 +6,20 @@ layout: page
 
 <strong>$ whoami</strong>
 
-I am Çağlar Eker and I am a developer.
+Hey, I'm Çağlar. I'm a Senior Software Engineer at **Hepsiburada**, one of Turkey's largest e-commerce platforms. Based in Istanbul.
 
-I have studied Computer Engineering at Near East University and I live in Istanbul, Turkey.
+I've been building things on the JVM for almost a decade now — mostly with **Java** and **Spring**, often dealing with large-scale e-commerce systems and SAP Hybris.
 
-I code in <strong>Java</strong> and I am an <strong>open source</strong> enthusiast.
+<strong>$ how_i_work</strong>
 
-This is my personal website, and you can view my portfolio on [Linked-in](https://www.linkedin.com/in/caglareker/){:target="_blank"}.
+I'm a big believer in using AI as a force multiplier. Claude, Copilot, and LLMs in general are part of my daily workflow — not to replace thinking, but to stay focused on the parts that actually matter: architecture, design decisions, and solving real problems. The boring boilerplate writes itself now, and I'm here for it.
 
-Thank you for visiting.
+<strong>$ journey</strong>
+
+I started my career at **ebebek** building e-commerce platforms with SAP Hybris, moved to **WittyCommerce** where I worked on projects for Beko.com and Hepsiburada, and eventually joined **Hepsiburada** directly as a Senior Engineer in 2022.
+
+I studied Computer Engineering at **Near East University** in Cyprus.
+
+<strong>$ get_in_touch</strong>
+
+Best way to reach me is [LinkedIn](https://www.linkedin.com/in/caglareker/){:target="_blank"}. You can also check out my stuff on [GitHub](https://github.com/caglareker){:target="_blank"}.
