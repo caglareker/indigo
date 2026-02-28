@@ -9,7 +9,7 @@ tag:
 - algorithm
 star: false
 category: blog
-author: johndoe
+author: caglareker
 description: Hackerrank time conversion algorithm java solution
 ---
 

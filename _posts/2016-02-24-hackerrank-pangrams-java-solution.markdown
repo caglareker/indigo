@@ -10,7 +10,7 @@ tag:
 - algorithm
 star: false
 category: blog
-author: johndoe
+author: caglareker
 description: Hackerrank pangrams solution
 ---
 

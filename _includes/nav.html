@@ -35,5 +35,46 @@
                 <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}" target="_blank">Résumé</a>
             </li>
         {% endif %}
+
+        <li class="item">
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">
+                <i class="fa-solid fa-sun toggle-icon toggle-icon--sun"></i>
+                <i class="fa-solid fa-moon toggle-icon toggle-icon--moon"></i>
+                <span class="toggle-ball"></span>
+            </button>
+        </li>
     </ul>
 </nav>
+
+<script>
+(function() {
+    var toggle = document.getElementById('theme-toggle');
+
+    function getEffectiveTheme() {
+        var saved = localStorage.getItem('theme');
+        if (saved) return saved;
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+
+    function updateToggle() {
+        var theme = getEffectiveTheme();
+        toggle.classList.toggle('toggled', theme === 'dark');
+    }
+
+    toggle.addEventListener('click', function() {
+        var current = getEffectiveTheme();
+        var next = current === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+        updateToggle();
+    });
+
+    updateToggle();
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function() {
+        if (!localStorage.getItem('theme')) {
+            updateToggle();
+        }
+    });
+})();
+</script>

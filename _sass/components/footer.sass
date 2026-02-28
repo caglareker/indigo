@@ -1,10 +1,10 @@
 .footer-main
-    border-top: 1px solid $epsilon
+    border-top: 1px solid var(--epsilon)
     padding: 40px 0
     margin: 40px 0 0
     font-size: 1.3rem
-    color: $gama
-    font-weight: $thin-font
+    color: var(--gama)
+    font-weight: var(--thin-font)
     text-align: center
     position: relative
 
@@ -13,13 +13,13 @@
         content: " "
         width: 7px
         height: 7px
-        border: $epsilon 1px solid
+        border: var(--epsilon) 1px solid
         position: absolute
         top: -5px
         left: 50%
         margin-left: -5px
-        background: $omega
-        box-shadow: $omega 0 0 0 5px
+        background: var(--omega)
+        box-shadow: var(--omega) 0 0 0 5px
         border-radius: 3px
 
     > .copyright
@@ -31,7 +31,7 @@
 
         > .icon
             width: 15px !important
-            fill: $gama !important
+            fill: var(--gama) !important
             transition: ease-in-out all .3s
             position: relative
             display: inherit
@@ -40,15 +40,15 @@
             left: 2px
 
             &:hover
-                fill: $delta !important
+                fill: var(--delta) !important
 
     > .extra
-        color: $gama
+        color: var(--gama)
         margin-top: 0
-        font-weight: $thin-font
+        font-weight: var(--thin-font)
 
         > .link
-            color: $beta
+            color: var(--beta)
             text-decoration: none
             border-bottom: 1px solid transparent
             transition: ease-in-out all .3s
@@ -56,4 +56,4 @@
             font-weight: 300
 
             &:hover
-                border-color: $gama
+                border-color: var(--gama)
