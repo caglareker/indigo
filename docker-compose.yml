@@ -2,8 +2,12 @@
 
 services:
   jekyll:
-    image: bretfisher/jekyll-serve
+    build: .
     volumes:
       - .:/site
+      - bundle_cache:/usr/local/bundle
     ports:
       - '4000:4000'
+
+volumes:
+  bundle_cache:
