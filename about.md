@@ -6,7 +6,7 @@ layout: page
 
 <strong>$ whoami</strong>
 
-Hey, I'm Çağlar. I'm a Senior Software Engineer at **Hepsiburada**, one of Turkey's largest e-commerce platforms. Based in Istanbul.
+Hey, I'm Çağlar. I'm a Senior Software Engineer working on large-scale e-commerce systems. Based in Istanbul.
 
 I've been building things on the JVM for almost a decade now - mostly with **Java** and **Spring**, often dealing with large-scale e-commerce systems and SAP Hybris.
 
