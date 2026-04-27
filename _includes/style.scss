@@ -73,7 +73,10 @@
         .moon-mask {
             fill: var(--omega);
             stroke: none;
-            transition: r 0.5s cubic-bezier(0.4, 0, 0.2, 1), cx 0.5s cubic-bezier(0.4, 0, 0.2, 1), cy 0.5s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s ease;
+            transform: scale(0);
+            transform-box: fill-box;
+            transform-origin: center;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s ease;
         }
     }
 
@@ -88,9 +91,7 @@
         }
 
         .moon-mask {
-            r: 8;
-            cx: 16;
-            cy: 8;
+            transform: scale(1);
         }
     }
 
